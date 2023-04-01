@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onclick="skip()">
+    <div id="introTitle">
+        <h2>Welcome to</h2>
+        <h1>Capable</h1>
+    </div>
+    <div id="askTalkback" style="display: none">
+        <h1>Aktifkan TalkBack?</h1>
+        <div class="btn-div">
+            <button onclick="location.href = 'auth-menu.html'" class="btn-talkback yes">Ya</button>
+            <button onclick="location.href = 'auth-menu.html'" class="btn-talkback no">Tidak</button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        setTimeout(() => {
+        let get = document.getElementById('introTitle');
+        get.style.display = 'none';
+        let get2 = document.getElementById('askTalkback');
+        get2.style.display = 'block';
+        }, 2500);
+        </script>
+</body>
+</html>

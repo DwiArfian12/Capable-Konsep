@@ -1,0 +1,154 @@
+body {
+  background: #0989a7;
+  font-family: Helvetica;
+}
+#introTitle, #askTalkback {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  line-height: 10px;
+  text-shadow: 2px 2px 4px #0000009c;
+  width: 100%;
+}
+
+#introTitle h1 {
+    font-size: 40px;
+}
+#introTitle h2 {
+    font-size: 30px;
+}
+
+.btn-div {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    width: 20%;
+}
+
+.btn-talkback {
+    font-size: 20px;
+    padding: 17px 0;
+    width: 43%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 4px 7px 1px rgba(0,0,0,0.46);
+    font-weight: bold;
+}
+
+.yes {
+    background: #4dabc1;
+    color: #f0f0f0;
+}
+
+.no {
+    background: #dddddd;
+    color: #4dabc1;
+}
+
+.btn-talkback:hover {
+    position:relative;
+    box-shadow: none;
+    cursor: pointer;
+    top: 4px;
+}
+
+.btn-div-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn-auth {
+    width: 270px;
+    padding: 15px 0;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px 1px rgba(0,0,0,0.46);
+    font-size: 16px;
+}
+
+.btn-auth:hover {
+    position:relative;
+    box-shadow: none;
+    cursor: pointer;
+    top: 4px;
+}
+
+.back-btn {
+    margin: 20px;
+}
+
+.back-btn a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0989a7;
+    font-size: 20px;
+}
+
+.cb a {
+    color: #0989a7;
+}
+
+.cb a:hover {color: #4dabc1; text-decoration: underline;}
+.back-btn a:hover {color: #4dabc1; text-decoration: underline;}
+
+.isi-form {
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.isi-form input {
+    border: none;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cb {
+    display: flex;
+    font-size: 15px ;
+    margin-top: 10px;
+}
+
+.isi-form input.cb-btn {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.isi-form button {
+    background: #0989a7;
+    border: none;
+    padding: 14px;
+    width: 80%;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.46);
+}
+
+.isi-form button:hover {
+    position:relative;
+    box-shadow: none;
+    cursor: pointer;
+    top: 1px;
+    background: #4dabc1;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-div {
+        width: 80%;
+    }
+}
