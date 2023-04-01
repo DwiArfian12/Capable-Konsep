@@ -99,9 +99,11 @@ body {
 .back-btn a:hover {color: #4dabc1; text-decoration: underline;}
 
 .isi-form {
-    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 300px;
-    margin-top: 150px;
     text-align: center;
     display: flex;
     flex-direction: column;
