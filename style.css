@@ -1,6 +1,7 @@
 body {
   background: #0989a7;
   font-family: Helvetica;
+  margin: 0;
 }
 #introTitle, #askTalkback {
   position: absolute;
@@ -106,11 +107,13 @@ body {
     flex-direction: column;
 }
 
+
 .isi-form input {
+    box-sizing: border-box;
     border: none;
     margin-bottom: 10px;
     width: 100%;
-    padding: 10px;
+    padding: 15px 10px;
     border-radius: 5px;
 }
 
@@ -130,7 +133,7 @@ body {
     background: #0989a7;
     border: none;
     padding: 14px;
-    width: 80%;
+    width: 75%;
     margin-top: 15px;
     border-radius: 5px;
     font-weight: bold;
