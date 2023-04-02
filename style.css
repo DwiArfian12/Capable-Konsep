@@ -22,18 +22,30 @@ body {
     font-size: 30px;
 }
 
+#askTalkback h1 {
+    font-size: 27px;
+}
+
 .btn-div {
     margin: 30px auto;
     display: flex;
     justify-content: center;
     gap: 10%;
-    width: 20%;
+    width: 80%;
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
 }
 
 .btn-talkback {
     font-size: 20px;
-    padding: 17px 0;
-    width: 43%;
+    padding: 15px 0;
+    width: 41%;
     border: none;
     border-radius: 3px;
     box-shadow: 0px 4px 7px 1px rgba(0,0,0,0.46);
@@ -103,7 +115,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 90vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -121,14 +133,19 @@ body {
 
 .cb {
     display: flex;
+    align-items: center;
     font-size: 15px ;
     margin-top: 10px;
+}
+
+.cb label {
+    margin-top: -6px;
 }
 
 .isi-form input.cb-btn {
     height: 15px;
     width: 15px;
-    margin-right: 10px;
+    margin-right: 7px;
 }
 
 .isi-form button {
@@ -150,12 +167,6 @@ body {
     cursor: pointer;
     top: 1px;
     background: #4dabc1;
-}
-
-@media only screen and (max-width: 768px) {
-    .btn-div {
-        width: 80%;
-    }
 }
 
 main {
