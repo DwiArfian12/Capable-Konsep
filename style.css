@@ -15,6 +15,10 @@ body {
   width: 100%;
 }
 
+#askTalkback img {
+    width: 80%;
+}
+
 #introTitle h1 {
     font-size: 40px;
 }
@@ -69,6 +73,12 @@ body {
     top: 4px;
 }
 
+.isi-form img {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: -40px;
+}
+
 .btn-div-auth {
     display: flex;
     flex-direction: column;
@@ -119,6 +129,10 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+}
+
+.isi-form h1 {
+    margin-bottom: 40px;
 }
 
 
@@ -214,8 +228,6 @@ main {
 }
 
 .fg-search input {
-    box-sizing: border-box;
-    width: 100%;
     margin-top: 15px;
     padding: 10px;
     background: #ececec;
@@ -224,11 +236,10 @@ main {
 }
 
 .welc {
-    box-sizing: border-box;
     background: #0989a7;
     color: white;
     text-align: left;
-    padding: 5px 25px;
+    padding: 5px 20px;
     line-height: 25px;
 }
 
