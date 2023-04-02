@@ -163,7 +163,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: calc(100vh + 100px);
+    height: calc(100vh + 250px);
 }
 
 .card {
@@ -255,7 +255,6 @@ footer {
 
 .ikon {
     box-sizing: border-box;
-    padding: 0 30px;
     line-height: 3px;
     display: flex;
     flex-direction: column;
@@ -265,6 +264,7 @@ footer {
 
 .ikon img {
     width: 35px;
+    padding-top: 5px;
 }
 
 .ikon p {
